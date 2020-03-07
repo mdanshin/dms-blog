@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dms-blog/static/css/main.d1b05096.chunk.css",
+    "main.js": "/dms-blog/static/js/main.f4b01e68.chunk.js",
+    "main.js.map": "/dms-blog/static/js/main.f4b01e68.chunk.js.map",
+    "runtime-main.js": "/dms-blog/static/js/runtime-main.944d9577.js",
+    "runtime-main.js.map": "/dms-blog/static/js/runtime-main.944d9577.js.map",
+    "static/js/2.9d9ae6c9.chunk.js": "/dms-blog/static/js/2.9d9ae6c9.chunk.js",
+    "static/js/2.9d9ae6c9.chunk.js.map": "/dms-blog/static/js/2.9d9ae6c9.chunk.js.map",
+    "index.html": "/dms-blog/index.html",
+    "precache-manifest.f15bf9a94f60cad14170f0bcea1d0cc9.js": "/dms-blog/precache-manifest.f15bf9a94f60cad14170f0bcea1d0cc9.js",
+    "service-worker.js": "/dms-blog/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/dms-blog/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.9d9ae6c9.chunk.js.LICENSE.txt": "/dms-blog/static/js/2.9d9ae6c9.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/dms-blog/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.944d9577.js",
+    "static/js/2.9d9ae6c9.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.f4b01e68.chunk.js"
+  ]
+}
