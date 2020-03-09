@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
+import Menu from './components/Menu/Menu'
+import Container from 'react-bootstrap/Container'
+import Main from './components/Main/Main'
 
-function App(props) {
-  const {layout} = props
 
+function App() {
   return (
-    React.createElement(layout)
-    
+    <Container>
+      <Menu />
+      <Main sidebar="right" />
+    </Container>
+    // <Footer>
   );
 }
 
