@@ -1,5 +1,5 @@
 import React from "react"
-import classes from './Nav.module.css'
+import classes from './Nav.module.scss'
 
 import {Link} from 'react-router-dom';
 
@@ -8,9 +8,9 @@ export default function Nav() {
         <nav className={classes.Nav}>
             <div className={classes.container}>
                 <Link to="/" className={classes.navbarBrand}><strong>IT Blog danshin.ms</strong></Link>
-                <button className={classes.toggle}>
-                    <span className={classes.toggleIcon}></span>
-                </button>
+                {/*<button className={classes.toggle}>*/}
+                {/*    <span className={classes.toggleIcon}></span>*/}
+                {/*</button>*/}
                 <div className={classes.navbarCollapse}>
                     <ul>
                         <li>
