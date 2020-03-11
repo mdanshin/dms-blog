@@ -1,0 +1,36 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.container {
+
+}
+
+.navbarBrand {
+    cursor: pointer;
+    color: rgba(0,0,0,0.9);
+    font-family: "Georgia","Times New Roman",serif;
+    font-size: 24.8px;
+
+
+}
+
+.toggle {
+
+}
+
+.toggleIcon {
+
+}
+
+.navbarCollapse {
+    display: flex;
+    flex-direction: row;
+}
