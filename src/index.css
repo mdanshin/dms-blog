@@ -1,7 +1,18 @@
-@import-normalize;
+/*@import-normalize;*/
 
 /*https://yarnpkg.com/en/package/normalize.css*/
 
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/**,*/
+/**::before,*/
+/**::after {*/
+/*    box-sizing: inherit;*/
+/*}*/

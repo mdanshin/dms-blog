@@ -12,7 +12,7 @@ export default function Nav() {
                 {/*    <span className={classes.toggleIcon}></span>*/}
                 {/*</button>*/}
                 <div className={classes.navbarCollapse}>
-                    <ul>
+                    <ul className={classes.mr}>
                         <li>
                             <Link to="/">Главная</Link>
                         </li>
@@ -25,7 +25,7 @@ export default function Nav() {
                     </ul>
                     <ul>
                         <form action="">
-                            <input type="text" placeholder="Поиск по блогу..." />
+                            <input className={classes.search} type="text" placeholder="Поиск по блогу..."/>
                         </form>
                     </ul>
                 </div>
