@@ -27,6 +27,9 @@ li a {
   text-decoration: none;
   padding: 12.8px 14.4px;
   color: rgba(0, 0, 0, 0.5);
+  font-family:"Segoe UI", "Helvetica Neue", Arial;
+  font-size: .93rem;
+  font-weight:400;
 }
 
 .navbarCollapse > ul > li > a:hover {
@@ -92,7 +95,8 @@ ul > .search {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.9);
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 24.8px;
+  font-size: 1.55rem;
+  font-weight:bold;
   white-space: nowrap;
   padding-top: 0.68rem;
   padding-bottom: 0.68rem;
