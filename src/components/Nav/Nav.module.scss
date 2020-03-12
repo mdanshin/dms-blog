@@ -1,9 +1,13 @@
 .Nav {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  padding: 0.3rem 1rem;
-
+  //display: flex;
+  //flex-direction: row;
+  //text-decoration: none;
+  //padding: 0.3rem 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 ul {
@@ -46,6 +50,7 @@ ul > .search {
   border: 1px solid #eee;
   color: #999;
   padding: 0.45rem 1.2rem;
+  height: calc(2.5rem + 2px);
 }
 
 .search:focus {
@@ -113,7 +118,7 @@ ul > .search {
 }
 
 .navbarCollapse {
-  flex-basis: 100%;
+  flex-basis: auto;
   display: flex;
   flex-direction: row;
   flex-grow: 1;

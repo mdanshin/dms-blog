@@ -23,7 +23,7 @@ export default function Nav() {
                             <Link to="/dashboard">О блоге</Link>
                         </li>
                     </ul>
-                    <ul>
+                    <ul className={classes.ml}>
                         <form action="">
                             <input className={classes.search} type="text" placeholder="Поиск по блогу..."/>
                         </form>
