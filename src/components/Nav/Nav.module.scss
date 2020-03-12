@@ -1,0 +1,66 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 4.8px 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.container
+{
+  display: flex;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.navbarBrand {
+  cursor: pointer;
+  color: rgba(0,0,0,0.9);
+  font-family: "Georgia","Times New Roman",serif;
+  font-size: 24.8px;
+  white-space: nowrap;
+  padding: 10.88px;
+  margin: 0px 32px 0px 0px;
+}
+
+.toggle {
+
+}
+
+.toggleIcon {
+
+}
+
+.navbarCollapse {
+  display: flex;
+  flex-direction: row;
+}
