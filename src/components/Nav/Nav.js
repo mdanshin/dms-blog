@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 export default function Nav() {
     return (
         <nav className={classes.Nav}>
-            <div className={classes.container}>
+            <div className={[classes.container]}>
                 <Link to="/" className={classes.navbarBrand}><strong>IT Blog danshin.ms</strong></Link>
                 <button className={classes.toggle}>
                     <span className={classes.toggleIcon}></span>
