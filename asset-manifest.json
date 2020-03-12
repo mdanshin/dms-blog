@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dms-blog/static/css/main.9b33dfd8.chunk.css",
+    "main.css": "/dms-blog/static/css/main.b0846add.chunk.css",
     "main.js": "/dms-blog/static/js/main.79248b52.chunk.js",
     "main.js.map": "/dms-blog/static/js/main.79248b52.chunk.js.map",
     "runtime-main.js": "/dms-blog/static/js/runtime-main.944d9577.js",
@@ -8,15 +8,15 @@
     "static/js/2.8600b051.chunk.js": "/dms-blog/static/js/2.8600b051.chunk.js",
     "static/js/2.8600b051.chunk.js.map": "/dms-blog/static/js/2.8600b051.chunk.js.map",
     "index.html": "/dms-blog/index.html",
-    "precache-manifest.d4a8ad0b3dc0aced95f1ddd9ff72245f.js": "/dms-blog/precache-manifest.d4a8ad0b3dc0aced95f1ddd9ff72245f.js",
+    "precache-manifest.2f12335da212132ae2c7725e1f5cee04.js": "/dms-blog/precache-manifest.2f12335da212132ae2c7725e1f5cee04.js",
     "service-worker.js": "/dms-blog/service-worker.js",
-    "static/css/main.9b33dfd8.chunk.css.map": "/dms-blog/static/css/main.9b33dfd8.chunk.css.map",
+    "static/css/main.b0846add.chunk.css.map": "/dms-blog/static/css/main.b0846add.chunk.css.map",
     "static/js/2.8600b051.chunk.js.LICENSE.txt": "/dms-blog/static/js/2.8600b051.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.944d9577.js",
     "static/js/2.8600b051.chunk.js",
-    "static/css/main.9b33dfd8.chunk.css",
+    "static/css/main.b0846add.chunk.css",
     "static/js/main.79248b52.chunk.js"
   ]
 }
