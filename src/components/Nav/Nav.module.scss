@@ -12,10 +12,22 @@ ul {
   white-space: nowrap;
 }
 
-a {
+li a {
   text-decoration: none;
   padding-left: 0.9rem;
   padding-right: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+  //-webkit-text-fill-color:rgba(0, 0, 0, 0.5);
+
+
+}
+
+a:hover {
+  color: rgba(0,0,0,1);
+}
+
+a:visited {
+
 }
 
 .container
