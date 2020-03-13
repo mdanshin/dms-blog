@@ -5,12 +5,18 @@
 * {
     box-sizing: border-box;
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
 }
 
 body {
+    overflow: scroll;
     margin: 0;
     font-family: "Segoe UI", "Helvetica Neue", "Arial", serif;
     font-size: 1rem;
@@ -23,8 +29,8 @@ body {
     padding: 69.75px 0 0;
 }
 
-/**,*/
-/**::before,*/
-/**::after {*/
-/*    box-sizing: inherit;*/
-/*}*/
+@media (min-width: 1920px) {
+    html {
+        font-size: 17px;
+    }
+}

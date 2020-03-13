@@ -8,9 +8,9 @@ export default function Nav() {
         <nav className={classes.Nav}>
             <div className={[classes.container]}>
                 <Link to="/" className={classes.navbarBrand}><strong>IT Blog danshin.ms</strong></Link>
-                {/*<button className={classes.toggle}>*/}
-                {/*    <span className={classes.toggleIcon}></span>*/}
-                {/*</button>*/}
+                <button className={classes.hamburger}>
+                    <span className={classes.hamburger}></span>
+                </button>
                 <div className={classes.navbarCollapse}>
                     <ul className={classes.mr}>
                         <li>
@@ -24,7 +24,7 @@ export default function Nav() {
                         </li>
                     </ul>
                     <ul className={classes.ml}>
-                        <form action="">
+                        <form className={classes.form} action="">
                             <input className={classes.search} type="text" placeholder="Поиск по блогу..."/>
                         </form>
                     </ul>
