@@ -1,25 +1,24 @@
 import React from "react"
-import classes from './Nav.module.scss'
+import './Nav.scss'
 import {Link} from 'react-router-dom';
 import Drawer from '../Drawer/Drawer'
 
 function clickHandler() {
     return (
-
         <Drawer />
     )
 }
 
 export default function Nav() {
     return (
-        <nav className={classes.Nav}>
-            <div className={[classes.container]}>
-                <Link to="/" className={classes.navbarBrand}><strong>IT Blog danshin.ms</strong></Link>
-                <button className={classes.hamburger} onClick={clickHandler}>
-                    <span className={classes.hamburger ? classes.hamburger : classes.hamburger}></span>
+        <nav className="Nav">
+            <div className="container">
+                <Link to="/" className="nav-brand"><strong>IT Blog danshin.ms</strong></Link>
+                <button className="hamburger" onClick={clickHandler}>
+                    <span className="hamburger"></span>
                 </button>
-                <div className={classes.navbarCollapse}>
-                    <ul className={classes.mr}>
+                <div className="nav-collapse">
+                    <ul className="mr">
                         <li>
                             <Link to="/">Главная</Link>
                         </li>
@@ -30,9 +29,9 @@ export default function Nav() {
                             <Link to="/dashboard">О блоге</Link>
                         </li>
                     </ul>
-                    <ul className={classes.ml}>
-                        <form className={classes.form} action="">
-                            <input className={classes.search} type="text" placeholder="Поиск по блогу..."/>
+                    <ul className="ml">
+                        <form className="form" action="">
+                            <input className="search" type="text" placeholder="Поиск по блогу..."/>
                         </form>
                     </ul>
                 </div>

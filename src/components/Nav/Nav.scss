@@ -24,7 +24,7 @@
   justify-content: space-between;
 }
 
-.navbarBrand {
+.nav-brand {
   color: rgba(0, 0, 0, 0.9);
   margin-right: 2rem;
   font-size: 1.55rem;
@@ -39,12 +39,12 @@
   background-color: transparent;
 }
 
-.navbarCollapse {
+.nav-collapse {
   align-items: center;
   flex-grow: 1;
 }
 
-.navbarCollapse:not(.show) {
+.nav-collapse:not(.show) {
   display: none;
 }
 
@@ -174,7 +174,7 @@ li a:hover {
     flex-wrap: nowrap;
     max-width: 960px;
 
-    .navbarCollapse {
+    .nav-collapse {
       display: flex !important;
       flex-basis: auto;
     }
