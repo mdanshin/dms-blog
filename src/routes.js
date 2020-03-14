@@ -10,6 +10,9 @@ export default function useRoutes() {
             <Route exact path="/">
                 <Home />
             </Route>
+            <Route exact path="/dms-blog">
+                <Home />
+            </Route>
             <Route exact path="/Home">
                 <Home />
             </Route>
