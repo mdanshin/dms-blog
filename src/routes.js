@@ -7,7 +7,7 @@ import About from "./pages/About"
 export default function useRoutes() {
     return (
         <Switch>
-            <Route exact path="/">
+            <Route exact path="/Home">
                 <Home />
             </Route>
             <Route path="/Contact">

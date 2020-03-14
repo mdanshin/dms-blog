@@ -1,15 +1,17 @@
-import React from "react"
+import React, {useState} from "react"
 import './Nav.scss'
 import {Link} from 'react-router-dom';
-import Drawer from '../Drawer/Drawer'
-
-function clickHandler() {
-    return (
-        <Drawer />
-    )
-}
 
 export default function Nav() {
+
+    const [state, setState] = useState(false)
+
+    function clickHandler() {
+        return (
+            setState(!state)
+        )
+    }
+
     return (
         <nav className="Nav">
             <div className="container">
@@ -17,16 +19,16 @@ export default function Nav() {
                 <button className="hamburger" onClick={clickHandler}>
                     <span className="hamburger"></span>
                 </button>
-                <div className="nav-collapse">
+                <div className={state ? "nav-collapse show" : "nav-collapse" } >
                     <ul className="mr">
                         <li>
-                            <Link to="/">Главная</Link>
+                            <Link to="/Home">Главная</Link>
                         </li>
                         <li>
-                            <Link to="/about">Обратная связь</Link>
+                            <Link to="/contact">Обратная связь</Link>
                         </li>
                         <li>
-                            <Link to="/dashboard">О блоге</Link>
+                            <Link to="/about">О блоге</Link>
                         </li>
                     </ul>
                     <ul className="ml">

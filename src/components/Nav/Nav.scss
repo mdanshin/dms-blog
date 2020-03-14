@@ -14,6 +14,8 @@
 }
 
 .container {
+  background-color: #fff !important;
+  fill: #fff !important;
   width: 100%;
   align-items: center;
   display: flex;
@@ -37,6 +39,7 @@
   transition: all .2s;
   text-decoration: none;
   background-color: transparent;
+  z-index: 3;
 }
 
 .nav-collapse {
@@ -58,7 +61,6 @@
   margin-top: 0;
 }
 
-
 strong {
   font-weight: bolder;
 }
@@ -74,7 +76,7 @@ li a {
 }
 
 li a:hover {
-  color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .ml {
@@ -116,10 +118,9 @@ li a:hover {
   box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25);
 }
 
-
 .hamburger {
-  color: rgba(0,0,0,0.5);
-  border-color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
   padding: 0.25rem 0.75rem;
   font-size: 1.15rem;
   line-height: 1;
@@ -128,9 +129,10 @@ li a:hover {
   text-transform: none;
   margin: 0;
   font-family: inherit;
+  z-index: 3;
 }
 
-.hamburger>span {
+.hamburger > span {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
@@ -161,6 +163,25 @@ li a:hover {
     padding-right: 0;
     padding-left: 0;
     max-width: 720px;
+  }
+  .nav-collapse.show {
+    top: 70px;
+  }
+
+  .nav-collapse {
+    top: -30%;
+    min-width: 200px;
+    max-width: 720px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: -1;
+    transition: top 0.5s ease 0s;
+  }
+
+  ul {
+    flex-direction: column;
+    z-index: -1;
   }
 }
 

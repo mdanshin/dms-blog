@@ -1,20 +1,14 @@
 import React from "react"
-import classes from './Home.scss'
+import './Home.scss'
+import Card from '../../components/Card/Card'
 
 export default function Home() {
     return (
-
-        <div className={classes.row}>
-            {/*<div className={classes.col}>*/}
-            {/*    <Card className={classes.big}/>*/}
-            {/*</div>*/}
-            {/*<div className={classes.col}>*/}
-            {/*    <Card className={classes.small}/>*/}
-            {/*</div>*/}
-            {/*<div className={classes.jumbotron}>*/}
-            {/*    <Jumbotron />*/}
-            {/*</div>*/}
+        <div className={"row"}>
+            <div className={"col"}>
+                <Card />
+            </div>
+            <div className={"col"}></div>
         </div>
-
     )
 }
