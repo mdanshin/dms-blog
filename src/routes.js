@@ -7,6 +7,9 @@ import About from "./pages/About"
 export default function useRoutes() {
     return (
         <Switch>
+            <Route exact path="/">
+                <Home />
+            </Route>
             <Route exact path="/Home">
                 <Home />
             </Route>

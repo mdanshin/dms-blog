@@ -1,11 +1,11 @@
 import React from "react"
-import classes from "./Article.scss"
+import "./Article.scss"
 import useRoutes from "../../routes"
 
 export default function Article() {
   const routes = useRoutes()  
   return (
-    <article className={classes.Article}>
+    <article className={"Article"}>
       {routes}
     </article>
     )
