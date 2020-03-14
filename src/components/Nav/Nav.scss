@@ -10,7 +10,7 @@
   transition: top 0.2s ease-in-out;
   font-weight: 400;
   fill: #fff !important;
-  top: 0px;
+  top: 0;
 }
 
 .container {
@@ -91,7 +91,7 @@ li a:hover {
 
 .form {
   display: block;
-  margin-top: 0em;
+  margin-top: 0;
 }
 
 .search {
@@ -169,7 +169,7 @@ li a:hover {
   }
 
   .nav-collapse {
-    top: -30%;
+    top: -24%;
     min-width: 200px;
     max-width: 720px;
     width: 100%;
@@ -177,6 +177,7 @@ li a:hover {
     position: fixed;
     z-index: -1;
     transition: top 0.5s ease 0s;
+    padding: 0.3rem;
   }
 
   ul {

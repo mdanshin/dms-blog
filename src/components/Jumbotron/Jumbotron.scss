@@ -1,0 +1,100 @@
+.Jumbotron {
+  fill: #e8f3ec !important;
+  background-size: cover;
+  padding: 7rem 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  margin-top: 1rem !important;
+  position: relative !important;
+  background-color: #e8f3ec !important;
+  border-radius: 0;
+}
+
+.tofront {
+  position: relative;
+  z-index: 1;
+  padding-left: 1.5rem !important;
+  padding-right: 0 !important;
+  height: 100% !important;
+}
+
+.content {
+  justify-content: space-between !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-center {
+  align-self: center !important;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-bottom: 5rem !important;
+  padding-top: 5rem !important;
+}
+
+.h1 {
+  margin-bottom: 1rem !important;
+  margin-top: 0;
+}
+
+.p {
+  margin-bottom: 1rem !important;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.35rem 1.1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  border-radius: 0.25rem;
+  position: relative;
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+}
+
+
+.col {
+
+}
+
+@media (min-width: 768px) {
+  .col-center {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-center {
+    padding-right: 1.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+}
