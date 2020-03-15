@@ -4,6 +4,7 @@ import useRoutes from "../../routes";
 
 export default function Main() {
     const routes = useRoutes()
+
     return (
         <main className={"Main"}>
             <div className={"container"}>
