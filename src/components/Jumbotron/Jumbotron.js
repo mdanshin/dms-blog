@@ -7,14 +7,14 @@ export default function Jumbotron() {
             <div className="tofront">
                 <div className="content">
                     <div className="col-center">
-                        <h1 className="h1">Лекция Евгения Пескина о возможных последствиях эпидемии коронавируса</h1>
+                        <h1 className="h1-jumbotron">Лекция Евгения Пескина о возможных последствиях эпидемии коронавируса</h1>
                         <p className="p">
                             Евгений Пескин, директор по стратегии в IBS, рассказал, как технологии помогают бороться с эпидемией
                             коронавируса.
                         </p>
                         <a className="btn" href="/coronavirus/">Читать далее</a>
                     </div>
-                    <div className="col"
+                    <div className="col-jumbotron"
                          style={{
                              backgroundImage: 'url(https://danshin.ms/assets/images/coronavirus.jpg)',
                              backgroundSize: 'cover'
