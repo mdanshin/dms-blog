@@ -21,7 +21,7 @@ export default function Home() {
                 </div>
             </div>
             <Jumbotron/>
-            <div className={"other-posts"}>
+            <div className={"row mt-3"}>
                 <OtherPostMain />
                 <Favorites />
             </div>

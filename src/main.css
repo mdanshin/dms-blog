@@ -56,8 +56,8 @@ html {
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-@-ms-viewport {
-    width: device-width; }
+/*@-ms-viewport {*/
+/*    width: device-width; }*/
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block; }
@@ -7345,8 +7345,8 @@ a.text-lightblue:hover, a.text-lightblue:focus {
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@-ms-viewport {
-    width: device-width; }
+/*@-ms-viewport {*/
+/*    width: device-width; }*/
 
 html {
     box-sizing: border-box;

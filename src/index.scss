@@ -1,6 +1,6 @@
-/*@import-normalize;*/
-
-/*https://yarnpkg.com/en/package/normalize.css*/
+@import "normalize.css";
+@import "main.css";
+@import "theme.css";
 
 * {
     box-sizing: border-box;
