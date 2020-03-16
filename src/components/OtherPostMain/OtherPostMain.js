@@ -35,7 +35,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/Deploy-squid-in-azure/">
-                        <img className="w-100" src="/assets/images/Deploy-squid-in-azure/0.png"
+                        <img className="w-100" src="https://danshin.ms/powershell-here-string/"
                              alt="Развёртывание и настройка Squid Proxy в Microsoft Azure" />
                     </a>
                 </div>
@@ -68,7 +68,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/UserPasswordExpiryTimeComputed/">
-                        <img className="w-100" src="/assets/images/UserPasswordExpiryTimeComputed/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Как посмотреть когда истечёт пароль пользователя в Active Directory" />
                     </a>
                 </div>
@@ -101,7 +101,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/CentOS-8-Automatic-Installation/">
-                        <img className="w-100" src="/assets/images/CentOS-8-Automatic-Installation/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Автоматическая установка CentOS 8" />
                     </a>
                 </div>
@@ -134,7 +134,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/install-exim-centos8/">
-                        <img className="w-100" src="/assets/images/install-exim-centos8/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Установка EXIM на CentOS 8 из исходников" />
                     </a>
                 </div>
@@ -167,7 +167,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/tmux/">
-                        <img className="w-100" src="/assets/images/tmux/0.png"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Как не прерывать работу SSH-сессии при обрыве соединения?" />
                     </a>
                 </div>
@@ -200,7 +200,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/Exchange-Photos/">
-                        <img className="w-100" src="/assets/images/Exchange-Photos/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Фоторафии в Exchnage. Откуда Outlook берёт фото пользователей?" />
                     </a>
                 </div>
@@ -233,7 +233,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/duplicate-message-detection/">
-                        <img className="w-100" src="/assets/images/duplicate-message-detection/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Duplicate Message Detection. Решаем проблему недоставки сообщений." />
                     </a>
                 </div>
@@ -266,7 +266,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/PSReadLine-problem/">
-                        <img className="w-100" src="/assets/images/PSReadLine-problem/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Исправление проблемы ввода заглавных букв в Powershell" />
                     </a>
                 </div>
@@ -299,7 +299,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/powershell-arrays-and-hashtables/">
-                        <img className="w-100" src="/assets/images/powershell-arrays-and-hashtables/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Базовые сведения о массивах и хеш-таблицах в Powershell" />
                     </a>
                 </div>
@@ -332,7 +332,7 @@ export default function OtherPostMain() {
 
                 <div className="col-md-3 pr-0 text-right">
                     <a href="/powershell-here-string/">
-                        <img className="w-100" src="/assets/images/powershell-here-string/0.jpg"
+                        <img className="w-100" src="https://danshin.ms/assets/images/powershell-arrays-and-hashtables/0.jpg"
                              alt="Как создать много файлов с разным, динамическим содержанием в Powershell" />
                     </a>
                 </div>

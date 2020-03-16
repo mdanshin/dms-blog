@@ -1,5 +1,5 @@
 import React from "react"
-import './Home.scss'
+// import './Home.scss'
 import CardBig from '../../components/CardBig/CardBig'
 import CardSmall from "../../components/CardSmall/CardSmall";
 import Jumbotron from "../../components/Jumbotron/Jumbotron";
@@ -10,11 +10,11 @@ import Favorites from "../../components/Favorites/Favorites";
 export default function Home() {
     return (
         <div>
-            <div className={"row"}>
-                <div className={"col"}>
+            <div className={"row remove-site-content-margin"}>
+                <div className={"col-md-6"}>
                     <CardBig/>
                 </div>
-                <div className={"col"}>
+                <div className={"col-md-6"}>
                     <CardSmall/>
                     <CardSmall/>
                     <CardSmall/>

@@ -13,12 +13,10 @@ export default function Favorites() {
                 <h6 className="font-weight-bold">
                     <a href="/Exchange-Photos/" className="text-dark">Фоторафии в Exchnage. Откуда Outlook берёт фото пользователей?</a>
                 </h6>
-                <span className="d-block text-muted">
-                    Категория <span className="catlist">
-
+                <span className="d-block text-muted">Категория <span className="catlist">
                     <a className="text-capitalize text-muted smoothscroll"
-                       href="/categories.html#администрирование">Администрирование</a><span className="sep">, </span>
-
+                       href="/categories.html#администрирование">Администрирование</a>
+                    <span className="sep">, </span>
                     </span>
                 </span>
             </span>
