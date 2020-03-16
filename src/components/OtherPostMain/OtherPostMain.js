@@ -4,8 +4,8 @@ import './OtherPostMain.scss'
 export default function OtherPostMain() {
     return (
         <div className={"other-posts-main"}>
-            <h4 className={"spanborder"}>
-                <span>Остальные статьи</span>
+            <h4 className={"h4"}>
+                <span className={"spanborder"}>Остальные статьи</span>
             </h4>
             <div className={"main-loop-card"}>
                 <div className={"pr-3"}>
@@ -267,12 +267,20 @@ export default function OtherPostMain() {
                     </a>
                 </div>
             </div>
-            <div className={"paginator"}>
-                <ul>
-                    <span className="prev-page-link">«</span>
-                    <li><span>1</span></li>
-                    <li><span>2</span></li>
-                    <li><span>Next</span></li>
+            <div className={"mt-5"}>
+                <ul className={"pagination"}>
+                    <li className={"page-item disabled"}>
+                        <span className={"prev page-link"}>«</span>
+                    </li>
+                    <li className={"page-item disabled"}>
+                        <span className={"webjeda page-link"} >1</span>
+                    </li>
+                    <li className={"page-item"}>
+                        <a className={"page-link"} href={"/page2"}>2</a>
+                    </li>
+                    <li className={"page-item"}>
+                        <a className={"page-link"} href={"/page2"}>Next</a>
+                    </li>
                 </ul>
             </div>
         </div>
